@@ -1,0 +1,14 @@
+{
+  "name": "4cyber-tools",
+  "version": "1.0.0",
+  "description": "API to process phone number info",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "luxon": "^2.0.2"
+  }
+}
