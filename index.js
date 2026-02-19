@@ -80,7 +80,7 @@ app.get('/search', async (req, res) => {
       }
 
       response = await axios.get("https://pan2info-shatirownerrr.vercel.app/pan", {
-        params: { key: "demo", term: value },
+        params: { key: "demo&term", term: value },
         timeout: 10000
       });
     }
